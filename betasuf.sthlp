@@ -35,7 +35,7 @@ previous versions of a given variable in the SUF and presents helpful statistics
 labels, coding or values. The command accepts factor variable notation. Nominal (e.g. federal state) or 
 ordinal variables (Likert-scaled items) require the prefix i. Continuous variables (e.g. income, age) do not
 require a prefix. The analyses are based on the scaling of the given variable. This command requires the packages {helpb fre} and {helpb catplot},
-which must be manually installed.
+which must be manually installed. The command does not work with string variables.
 
 {marker opt}{...}
 {title:Options}
